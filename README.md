@@ -102,19 +102,23 @@ Performed the following steps:
 
 ## 🚀 How to Run the Project
 
-1️⃣ Install required libraries:
+1. Install required libraries:
 
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install streamlit pandas numpy plotly
 ```
 
-2️⃣ Open the notebook:
+2. Run the dashboard:
 
 ```bash
-jupyter notebook netflix_data_analysis.ipynb
+streamlit run Dashboard.py
 ```
 
-3️⃣ Run all cells to view analysis and visualizations
+3. Open the dashboard in your browser:
+
+```
+http://localhost:8501
+
 
 ---
 
